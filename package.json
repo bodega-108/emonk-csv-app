@@ -19,8 +19,13 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@vitalets/google-translate-api": "^3.0.0",
+    "google-translate-open-api": "^1.3.5",
+    "ngx-export-as": "^1.4.2",
+    "ngx-file-drop": "^9.0.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
+    "xlsx": "^0.16.4",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {

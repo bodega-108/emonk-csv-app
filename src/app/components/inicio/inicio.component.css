@@ -1,0 +1,40 @@
+.section{
+    margin-top: 160px;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    
+
+}
+
+.howdoit{
+    width:50%;
+}
+
+.lectorExcel{
+    height: 300px;
+    width: 100%;
+    background: url('../../../assets/img/listo.jpg');
+    margin-top:50px;
+    border-radius: 5px;
+}
+
+.howdoit-img{
+    width:50%;
+    background: url('./../../../assets/img/instruccion.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.lectorExcel{
+    display: flex;
+    color: antiquewhite;
+    align-items:center;
+    justify-content: center;
+}
+
+@media(max-width:600px){
+    .section{
+        flex-direction: column;
+    }
+}
